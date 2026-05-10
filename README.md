@@ -14,3 +14,7 @@ Run the streamlit application to see the auction dashboard and palce bids of you
 Use the "Place Bid" button to open a dialog screen that takes input
 
 Submit the form to send a message that will be validated and published if your bid is high enough!
+
+There is a link to auction dashboards to view for data visualization per auction item
+
+There is also a kafka dashboard to track the usage and performance metrics of the kafka consumers

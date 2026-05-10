@@ -1,0 +1,10 @@
+kafka:
+  clusters:
+    - name: local-cluster
+      bootstrapServers: broker:29092
+      # Optional: Schema Registry connection
+      schemaRegistry: http://localhost:8081
+      # Optional: Kafka Connect integration
+      kafkaConnect:
+        - name: first
+          address: http://localhost:8083
